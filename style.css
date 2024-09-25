@@ -1,0 +1,52 @@
+:root {
+    --burntOrange: #191970;
+    --white: #FFFFFF;
+}
+
+body {
+    margin: 0px;
+}
+.header {
+    display:flex;
+    flex-direction: row;
+    padding: 30px;
+    background-color: var(--burntOrange);
+    color: var(--white);
+    justify-content: space-between
+}
+
+li {
+    margin: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.footer {
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+    background-color: var(--burntOrange);
+    color: var(--white);
+
+}
+
+img {
+    height: 500px;
+    max-width: 500px;
+}
+
+.body {
+    margin: 10px;
+    text-align: center;
+    max-width: 600px;
+
+}
+
+.body-paragraph {
+    font-size: 20px
+}
