@@ -1,5 +1,5 @@
 :root {
-    --burntOrange: #191970;
+    --burntOrange: #0437F2;
     --white: #FFFFFF;
 }
 
@@ -9,10 +9,10 @@ body {
 .header {
     display:flex;
     flex-direction: row;
-    padding: 30px;
+    padding: 20px;
     background-color: var(--burntOrange);
     color: var(--white);
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 li {
@@ -24,6 +24,21 @@ ul {
     display: flex;
     flex-direction: row;
     font-size: 20px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white)
+}
+
+button {
+    padding: 20px;
+    border: var(--white) solid 1px;
+    border-radius: 20px;
+    background-color: var(--burntOrange);
+    color: var(--white);
+
 }
 
 .footer {
@@ -32,7 +47,7 @@ ul {
     text-align: center;
     background-color: var(--burntOrange);
     color: var(--white);
-
+    border-radius: 3px;
 }
 
 img {
@@ -43,10 +58,11 @@ img {
 .body {
     margin: 10px;
     text-align: center;
-    max-width: 600px;
-
 }
 
 .body-paragraph {
-    font-size: 20px
+    font-size: 20px;
+    max-width: 600px;
+    text-align: center;
+    margin: 0px  600px;
 }
